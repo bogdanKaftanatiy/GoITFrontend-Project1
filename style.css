@@ -93,7 +93,7 @@ body {
 	margin: auto;
 }
 
-.price_title {
+.white_title {
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 30px;
@@ -341,4 +341,64 @@ span.highlighted {
 
 .head {
 	padding: 10px 0;
+}
+
+.advantage_block {
+	text-align: center;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 40px 200px;
+}
+
+.protect_div, .alert_div, .detect_div {
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+}
+
+.advantage_div_title {
+	text-transform: uppercase;
+	font-size: 30px;
+	color: #3070A8;
+	margin: 5px;
+}
+
+.advantage_text {
+	color: gray;
+	line-height: 1.5;
+	padding: 10px;
+}
+
+.middle_section {
+	background-image: url(img/middle_section_background.jpg);
+	background-size: cover;
+	padding: 60px 14%;
+}
+
+.middle_header {
+	text-transform: uppercase;
+	color: #EE8129;
+	font-size: 20pt;
+	line-height: 1.5;
+	padding: 20px 0;
+}
+
+.middle_data {
+	color: white;
+	font-style: italic;
+}
+
+.middle_list {
+	color: grey;
+	font-style: normal;
+	width: 70%;
+	line-height: 2.0;
+}
+
+.middle_list>li {
+	padding-bottom: 10px;
+}
+
+.middle_list>li:nth-child(2) {
+	color: #3070A8;
 }
